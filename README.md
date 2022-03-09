@@ -1,0 +1,2 @@
+# ECFLOW Quickstart
+Let's get started with ECFLOW! This is a repo with an extremely condensed tutorial on how to get started with ECFLOW. It is meant as a starting point for new users, from users to users.

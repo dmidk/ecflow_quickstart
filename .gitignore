@@ -1,0 +1,7 @@
+# ECFLOW generated files
+*.job*
+*.def
+*.1
+
+# Cleanup
+clean.sh
