@@ -1,0 +1,3 @@
+%include "../../head.h"
+echo "I am task1 in family1"
+%include "../../tail.h"
