@@ -2,6 +2,7 @@
 *.job*
 *.def
 *.1
+*.2
 
 # Cleanup
 clean.sh
