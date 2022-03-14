@@ -12,12 +12,15 @@ def create_suite(name, families:list, ecfdir:str) -> ecf.Suite:
     suite.add_variable("ECF_FILES", ECF_FILES)
     suite.add_variable("ECF_HOME", ECF_HOME)
 
+    cron = ecf.Cron("22:30",days_of_week=[0])
 
     for family in families:
         fam = suite.add_family(family)
         fam.add_variable("FAMILY", 'ecf')
+        fam.add(cron)
         for t in ["task1", "task2"] :
             fam.add_task(t)
+            
 
     return suite
 

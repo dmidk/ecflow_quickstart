@@ -6,6 +6,8 @@ In terms of complexity, the examples are very simple. The examples are ordered b
 - [*suite_with_families*](https://github.com/dmidk/ecflow_quickstart/tree/master/examples/suite_with_families)
 - [*suite_ecf_collected*](https://github.com/dmidk/ecflow_quickstart/tree/master/examples/suite_ecf_collected)
 
+Please find the full tutorial on how to use ecFlow [here](https://confluence.ecmwf.int/display/ECFLOW/ecflow+home?src=sidebar) provided by [ECMWF](https://www.ecmwf.int/).
+
 ## ecFlow Terms
 ecFlow operates with `suites`. A suite is a collection of `families` and `tasks`. One suite could be a configuration of a model that one wants to run. Families could then be steps in the model (like preprocessing, forecast and postprocessing), and tasks could be the actual jobs that are run.
 
