@@ -12,12 +12,15 @@ def create_suite(name, families:list, ecfdir:str) -> ecf.Suite:
     suite.add_variable("ECF_FILES", ECF_FILES)
     suite.add_variable("ECF_HOME", ECF_HOME)
 
+    cron = ecf.Cron("22:30",days_of_week=[0])
 
     for family in families:
         fam = suite.add_family(family)
         fam.add_variable("FAMILY", 'ecf')
+        fam.add(cron)
         for t in ["task1", "task2"] :
             fam.add_task(t)
+            
 
     return suite
 
@@ -28,18 +31,6 @@ if __name__=='__main__':
 
     suite = create_suite('suiteName', ['familyName1', 'familyName2'], 'ecf')
     defs = ecf.Defs(suite)
-
-    # If you want to do it more custom made, you can use the following as template:
-    # defs = Defs(
-    #         Suite("suiteName",
-    #             Edit(ECF_INCLUDE=ECF_INCLUDE,
-    #                 ECF_HOME=ECF_HOME,
-    #                 ECF_FILES=ECF_FILES),
-    #             Family("Family1",
-    #                 Edit(FAMILY='ecf'),
-    #                 Task("task1"),
-    #                 Task("task2")
-    #         )))
 
     print(defs)
     
