@@ -1,5 +1,5 @@
-# examples/suite_ecf_collected
-This is a suite with where we collect all ecFlow files (`.ecf`) in one directory for a simpler overview. Also `header.h` and `tail` are located in `ecf` to have everything related to ecFlow in one place.
+# examples/suite_with_cron
+This is a suite with where we collect all ecFlow files (`.ecf`) in one directory for a simpler overview. Also `header.h` and `tail` are located in `ecf` to have everything related to ecFlow in one place. Finally we also add a cron job to the suite.
 
 The suite is called `suiteName` and have two families, `family1` and `family2`. Each family has two tasks (or children), `task1` and `task2`.
 

@@ -1,0 +1,6 @@
+%include "head.h"
+echo "I am task2 in a suite that lives in %ECF_HOME%"
+
+%ECF_HOME%/suiteName/scr/task2.sh
+
+%include "tail.h"
