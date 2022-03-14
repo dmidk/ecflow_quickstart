@@ -14,3 +14,6 @@ The scripts that we want to run are in the directory `scr`.
 The suite definition file is `suiteName.def` in the top level directory of this example.
 3. Load the suite definition file into ecFlow: `ecflow_client --load suiteName.def`
 4. Trigger the suite manually: `ecflow_client --begin=suiteName`
+
+\
+<img src="suitess.png" alt="Suite Screendump" width="400"/>
