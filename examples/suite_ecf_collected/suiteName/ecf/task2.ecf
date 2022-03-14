@@ -1,3 +1,8 @@
+%manual
+   Manual for task2
+   Operations: If this task fails, set it to complete and report next working day
+   Analyst:    Check the temporary data directory for data
+%end
 %include "head.h"
 echo "I am task2 in a suite that lives in %ECF_HOME%"
 
