@@ -1,0 +1,16 @@
+{
+    "panel":
+    {
+        "overview":
+        {
+            "font": "font(Monospace,8)"
+        }
+    },
+    "server":
+    {
+        "menu":
+        {
+            "nodeMenuMode": "admin"
+        }
+    }
+}

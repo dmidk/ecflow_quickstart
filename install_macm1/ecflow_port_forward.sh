@@ -1,0 +1,5 @@
+#!/bin/bash
+MYUSER=$USER
+ECFPORT=${ECFPORT:-1500}
+
+ssh -CNf -L9991:127.0.0.1:$ECFPORT $MYUSER@domain

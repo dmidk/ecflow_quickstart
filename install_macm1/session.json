@@ -1,0 +1,50 @@
+{
+    "windowCount": "1",
+    "topWindowId": "0",
+    "window_0":
+    {
+        "infoPanelCount": "1",
+        "tabCount": "1",
+        "currentTabId": "0",
+        "tab_0":
+        {
+            "server":
+            [
+                "servername"
+            ],
+            "widgetCount": "1",
+            "widget_0":
+            {
+                "type": "tree",
+                "dockId": "dock_0",
+                "selection": "[server]servername:\/\/",
+                "breadcrumbs":
+                {
+                    "mode": "gui"
+                },
+                "states":
+                [
+                    "_ALL_"
+                ],
+                "attributes":
+                [
+                    "label",
+                    "meter",
+                    "event",
+                    "repeat",
+                    "trigger",
+                    "limit",
+                    "limiter",
+                    "time",
+                    "date",
+                    "late"
+                ],
+                "icons":
+                [
+                    "_ALL_"
+                ],
+                "detached": "false"
+            }
+        }
+    }
+}
